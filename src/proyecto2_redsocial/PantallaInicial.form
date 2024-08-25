@@ -46,9 +46,13 @@
                                       <EmptySpace min="-2" pref="56" max="-2" attributes="0"/>
                                       <Component id="crearUsuario" min="-2" pref="116" max="-2" attributes="0"/>
                                   </Group>
-                                  <Group type="103" alignment="0" groupAlignment="1" attributes="0">
-                                      <Component id="jLabel1" alignment="1" min="-2" pref="210" max="-2" attributes="0"/>
-                                      <Component id="jLabel2" alignment="1" min="-2" pref="210" max="-2" attributes="0"/>
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <Group type="103" groupAlignment="1" attributes="0">
+                                          <Component id="jLabel1" alignment="1" min="-2" pref="210" max="-2" attributes="0"/>
+                                          <Component id="jLabel2" alignment="1" min="-2" pref="210" max="-2" attributes="0"/>
+                                      </Group>
+                                      <EmptySpace pref="65" max="32767" attributes="0"/>
+                                      <Component id="Salir" min="-2" max="-2" attributes="0"/>
                                   </Group>
                               </Group>
                           </Group>
@@ -63,7 +67,7 @@
                       <Component id="jLabel7" min="-2" pref="146" max="-2" attributes="0"/>
                   </Group>
               </Group>
-              <EmptySpace pref="56" max="32767" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
           </Group>
       </Group>
     </DimensionLayout>
@@ -87,10 +91,13 @@
               <Component id="jToggleButton1" min="-2" max="-2" attributes="0"/>
               <EmptySpace max="-2" attributes="0"/>
               <Component id="jLabel7" min="-2" max="-2" attributes="0"/>
-              <EmptySpace pref="105" max="32767" attributes="0"/>
+              <EmptySpace pref="95" max="32767" attributes="0"/>
               <Component id="jLabel1" min="-2" max="-2" attributes="0"/>
               <EmptySpace max="-2" attributes="0"/>
-              <Component id="jLabel2" min="-2" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="jLabel2" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="Salir" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
               <EmptySpace max="-2" attributes="0"/>
           </Group>
       </Group>
@@ -177,6 +184,14 @@
         </Property>
         <Property name="text" type="java.lang.String" value="informacion en nuestra app."/>
       </Properties>
+    </Component>
+    <Component class="javax.swing.JToggleButton" name="Salir">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Salir"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="SalirActionPerformed"/>
+      </Events>
     </Component>
   </SubComponents>
 </Form>
